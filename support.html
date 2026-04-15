@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Purr Diary Support</title>
+  <meta name="description" content="Support page for Purr Diary.">
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #302621;
+      --muted: #6f5d52;
+      --paper: rgba(255, 250, 243, 0.88);
+      --line: rgba(92, 67, 52, 0.13);
+      --accent: #be684f;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: ui-rounded, "SF Pro Rounded", "Hiragino Sans", "PingFang SC", "Apple SD Gothic Neo", system-ui, sans-serif;
+      color: var(--ink);
+      background:
+        radial-gradient(circle at 78% 18%, rgba(255, 229, 170, 0.46), transparent 24rem),
+        linear-gradient(145deg, #fff8e9 0%, #ffd7b9 100%);
+      min-height: 100vh;
+      line-height: 1.7;
+    }
+
+    main {
+      width: min(880px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 42px 0 56px;
+    }
+
+    article {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 30px;
+      padding: clamp(24px, 6vw, 52px);
+      box-shadow: 0 24px 60px rgba(92, 58, 38, 0.12);
+    }
+
+    nav { margin-bottom: 18px; }
+
+    a {
+      color: var(--accent);
+      font-weight: 760;
+      text-decoration: none;
+    }
+
+    h1 {
+      margin: 0 0 8px;
+      font-size: clamp(2.1rem, 6vw, 3.7rem);
+      line-height: 1;
+      letter-spacing: -0.045em;
+    }
+
+    h2 {
+      margin: 32px 0 8px;
+      font-size: 1.18rem;
+    }
+
+    p, li {
+      color: var(--muted);
+      font-weight: 560;
+    }
+
+    ul { padding-left: 1.2rem; }
+
+    .email {
+      display: inline-flex;
+      margin: 12px 0;
+      border-radius: 999px;
+      background: #fffaf2;
+      border: 1px solid var(--line);
+      padding: 12px 18px;
+    }
+
+    .language-block {
+      margin-top: 38px;
+      padding-top: 26px;
+      border-top: 1px solid var(--line);
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <nav><a href="./index.html">← Purr Diary</a></nav>
+    <article>
+      <h1>Support</h1>
+      <p>If you need help with Purr Diary, please contact us by email.</p>
+
+      <p><a class="email" href="mailto:zlg66831759@qq.com">zlg66831759@qq.com</a></p>
+
+      <h2>Please include</h2>
+      <ul>
+        <li>Your device model.</li>
+        <li>Your iOS version.</li>
+        <li>Your Purr Diary app version.</li>
+        <li>What you were trying to do, such as recording audio, recording video, choosing a file, saving a diary entry, replaying a clip, changing language, or making an optional support purchase.</li>
+        <li>Screenshots or screen recordings if they help explain the issue.</li>
+      </ul>
+
+      <h2>Important note</h2>
+      <p>Recognition results are for reference only and are not veterinary, medical, health, or safety advice. If you are concerned about your cat's health, please contact a veterinarian.</p>
+
+      <section class="language-block" lang="zh-Hans">
+        <h2>中文支持</h2>
+        <p>如果你在录音、录像、文件识别、保存日记、回看片段、切换语言或可选支持购买时遇到问题，可以发邮件联系我们：<a href="mailto:zlg66831759@qq.com">zlg66831759@qq.com</a>。请尽量附上设备型号、iOS 版本、App 版本和问题发生步骤。</p>
+      </section>
+
+      <section class="language-block" lang="ja">
+        <h2>日本語サポート</h2>
+        <p>録音、動画撮影、ファイル選択、日記保存、クリップ再生、言語切り替え、任意の応援購入で問題がある場合は、<a href="mailto:zlg66831759@qq.com">zlg66831759@qq.com</a> までご連絡ください。端末名、iOS バージョン、アプリバージョン、発生手順を添えてください。</p>
+      </section>
+
+      <section class="language-block" lang="ko">
+        <h2>한국어 지원</h2>
+        <p>녹음, 동영상 촬영, 파일 선택, 일기 저장, 클립 다시 보기, 언어 변경, 선택적 응원 구매 중 문제가 있으면 <a href="mailto:zlg66831759@qq.com">zlg66831759@qq.com</a> 으로 연락해 주세요. 기기 모델, iOS 버전, 앱 버전, 문제가 발생한 과정을 함께 알려주시면 도움이 됩니다.</p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
